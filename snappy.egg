@@ -1,0 +1,12 @@
+;; -*- scheme -*-
+((synopsis "Bindings to Google's Snappy compression library")
+ (author "Kristian Lein-Mathisen")
+ (category data)
+ (license "BSD")
+ (dependencies)
+ (foreign-dependencies snappy)
+ (test-dependencies test)
+ (components (extension snappy
+                        (source "snappy-module.scm")
+                        (source-dependencies "snappy.scm")
+                        (csc-options "-L" "-lsnappy"))))

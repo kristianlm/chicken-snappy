@@ -1,0 +1,7 @@
+/snappy.build.sh
+/snappy.import.scm
+/snappy.import.so
+/snappy.install.sh
+/snappy.link
+/snappy.so
+/snappy.static.o
